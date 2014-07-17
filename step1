@@ -1,10 +1,10 @@
 sudo apt-get install gnome-session-fallback -y
 
 # with effect
-#sudo /usr/lib/lightdm/lightdm-set-defaults -s gnome-classic
+sudo /usr/lib/lightdm/lightdm-set-defaults -s gnome-classic
 
 # without effect
-sudo /usr/lib/lightdm/lightdm-set-defaults -s gnome-fallback
+#sudo /usr/lib/lightdm/lightdm-set-defaults -s gnome-fallback
 
 sudo cp lightdm.conf /etc/lightdm/lightdm.conf
 

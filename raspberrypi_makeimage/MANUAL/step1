@@ -1,0 +1,10 @@
+wget http://downloads.raspberrypi.org/raspbian_latest
+
+unzip raspbian_latest
+
+
+df -h
+
+umount /dev/sdb1
+
+time sudo dd bs=1M if=2014-06-20-wheezy-raspbian.img of=/dev/sdb

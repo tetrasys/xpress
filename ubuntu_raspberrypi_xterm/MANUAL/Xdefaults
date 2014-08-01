@@ -1,0 +1,23 @@
+#XTerm*font: -*-*-medium-r-normal--16-*-iso8859-*
+
+#xterm*font: -*-fixed-medium-r-*-*-14-*-*-*-*-*-iso8859-1
+
+#xterm*font1: -*-lucidatypewriter-medium-*-*-*-12-120-*-*-*-*-8859-1
+
+xterm*font: -*-lucidatypewriter-medium-*-*-*-12-*-*-*-*-*-*-*
+
+XTerm*background: black
+XTerm*foreground: white
+XTerm*pointerColor: yellow
+XTerm*pointerColorBackground: black
+XTerm*cursorColor: blue
+XTerm*internalBorder: 2
+XTerm*loginShell: true
+XTerm*ScrollBar: false
+XTerm*scrollBar.width: 10
+XTerm*ScrollKey: true
+XTerm*SaveLines: 1000
+XTerm*multiClickTime: 250
+XTerm*VT100.geometry: 80x20
+XTerm*rightScrollBar: true
+XTerm*title: XTerm

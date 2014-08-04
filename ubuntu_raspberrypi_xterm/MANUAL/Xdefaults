@@ -6,6 +6,13 @@
 
 xterm*font: -*-lucidatypewriter-medium-*-*-*-12-*-*-*-*-*-*-*
 
+
+
+#xterm*font: -*-fixed-medium-r-*-*-12-*-*-*-*-*-iso8859-*
+#XTerm*renderFont: true
+#XTerm*faceName: Planer 
+#Xterm*facesize: 12
+
 XTerm*background: black
 XTerm*foreground: white
 XTerm*pointerColor: yellow
@@ -20,4 +27,4 @@ XTerm*SaveLines: 1000
 XTerm*multiClickTime: 250
 XTerm*VT100.geometry: 80x20
 XTerm*rightScrollBar: true
-XTerm*title: XTerm
+XTerm*title: Tetrasystems

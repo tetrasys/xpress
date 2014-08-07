@@ -1,0 +1,41 @@
+set cindent
+set autoindent
+set smartindent
+set showcmd	
+set incsearch
+set bg=dark
+set visualbell
+set nu
+set shiftwidth=4
+set tabstop=4
+set hlsearch
+set showmode
+set ruler
+set noignorecase
+set title
+set tagbsearch
+set history=1000
+filetype on
+syn on
+hi PreProc term=underline cterm=bold ctermfg=1
+
+set tags=./tags,/usr/src/linux/tags
+
+set csprg=/usr/bin/cscope
+set csto=0
+set cst
+set nocsverb
+
+if filereadable("./cscope.out")
+	cs add cscope.out
+else
+	cs add /usr/src/linux/cscope.out
+endif
+
+set csverb
+
+map <F2> :Tlist<cr>
+map <F3> <c-w><c-w>
+map <s-f> <c-f>
+map <s-b> <c-b>
+

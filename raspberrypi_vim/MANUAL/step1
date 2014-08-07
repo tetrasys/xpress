@@ -1,3 +1,0 @@
-mv vimrc ~/.vimrc
-sudo apt-get install vim-nox
-

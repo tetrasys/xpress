@@ -1,0 +1,4 @@
+
+sudo cp -f 10-xubuntu.conf /etc/lightdm/lightdm.conf.d/10-xubuntu.conf
+
+ 

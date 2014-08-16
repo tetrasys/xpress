@@ -1,0 +1,18 @@
+#sudo apt-get install ntfs-3g
+
+sudo fdisk -l | grep sda
+
+#mkdir /home/pi/torrent/watch/ntfs1
+#mkdir /home/pi/torrent/watch/ntfs2
+#mkdir /home/pi/torrent/watch/ntfs3
+
+#if exist super directory /home/pi 
+#sudo chown pi:pi /mnt/ntfs1
+#sudo chown pi:pi /mnt/ntfs2
+#sudo chown pi:pi /mnt/ntfs3
+
+sudo mount -t ntfs -o uid=pi,gid=pi /dev/sda1 /home/pi/torrent/watch/ntfs1
+sudo mount -t ntfs -o uid=pi,gid=pi /dev/sda2 /home/pi/torrent/watch/ntfs2
+sudo mount -t ntfs -o uid=pi,gid=pi /dev/sda3 /home/pi/torrent/watch/ntfs3
+
+#umount -> sudo reboot than command umount
